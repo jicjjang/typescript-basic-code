@@ -8,7 +8,8 @@
     "node:babel:build": "babel src/node --out-dir dist/node/babel --extensions '.ts,.tsx'",
     "node:babel:run": "node dist/node/babel/main.js",
     "node:tsc:build": "tsc src/node/* --outDir dist/node/tsc",
-    "node:tsc:run": "node dist/node/ts/main.js"
+    "node:tsc:run": "node dist/node/ts/main.js",
+    "deno:run": "deno run src/deno/main.ts"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",

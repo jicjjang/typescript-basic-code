@@ -1,4 +1,8 @@
 {
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.enablePaths": ["src/deno"],
+  "editor.defaultFormatter": "denoland.vscode-deno",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
